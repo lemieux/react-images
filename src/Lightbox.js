@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import jss as _jss from 'jss';
+import jss from 'jss';
 import reactJss from 'react-jss';
 import camelCase from 'jss-camel-case';
 import px from 'jss-px';
@@ -7,7 +7,6 @@ import nested from 'jss-nested';
 import vendorPrefixer from 'jss-vendor-prefixer';
 import Swipeable from 'react-swipeable';
 
-export const jss = _jss;
 export let useSheet = reactJss(jss);
 jss.use(camelCase());
 jss.use(nested());
